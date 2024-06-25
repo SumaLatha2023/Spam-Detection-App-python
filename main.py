@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 import streamlit as st
 
-data = pd.read_csv("C:\\Users\\SUMALATHA\\OneDrive\\Desktop\\SpamDetection\\dataset.csv")
+data = pd.read_csv("dataset.csv")
 # print(data.head())
 
 # print(data.shape)
